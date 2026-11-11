@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Clientes</title>
+  </head>
+  <body>
+    <main>
+      <h1>Clientes</h1>
+      <label for="search">Buscar</label><input id="search" type="search" /><button
+        id="clear"
+        type="button"
+      >
+        Limpiar
+      </button>
+      <p id="empty" hidden>Sin resultados</p>
+      <table>
+        <thead>
+          <tr>
+            <th>Nombre</th>
+            <th>Ciudad</th>
+          </tr>
+        </thead>
+        <tbody id="rows">
+          <tr>
+            <td>Ana García</td>
+            <td>Madrid</td>
+          </tr>
+          <tr>
+            <td>Luis Pérez</td>
+            <td>Sevilla</td>
+          </tr>
+          <tr>
+            <td>Marta Ruiz</td>
+            <td>Valencia</td>
+          </tr>
+          <tr>
+            <td>Carlos Vega</td>
+            <td>Madrid</td>
+          </tr>
+        </tbody>
+      </table>
+    </main>
+    <script type="module" src="app.js"></script>
+  </body>
+</html>

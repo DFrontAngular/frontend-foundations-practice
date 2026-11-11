@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Tareas</title>
+  </head>
+  <body>
+    <main>
+      <h1>Tareas</h1>
+      <form id="task-form">
+        <label for="task">Nueva tarea</label
+        ><input id="task" name="task" autocomplete="off" /><button>Añadir</button>
+      </form>
+      <div aria-label="Filtros">
+        <button type="button" data-filter="all">Todas</button
+        ><button type="button" data-filter="pending">Pendientes</button
+        ><button type="button" data-filter="completed">Completadas</button>
+      </div>
+      <p><output id="pending-count">0</output> pendientes</p>
+      <ul id="task-list"></ul>
+    </main>
+    <script type="module" src="app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,8 @@
+[
+  { "id": 1, "name": "Teclado mecánico", "category": "Periféricos", "price": 89.9 },
+  { "id": 2, "name": "Ratón inalámbrico", "category": "Periféricos", "price": 39.9 },
+  { "id": 3, "name": "Monitor 27 pulgadas", "category": "Pantallas", "price": 249 },
+  { "id": 4, "name": "Soporte de portátil", "category": "Accesorios", "price": 32.5 },
+  { "id": 5, "name": "Webcam Full HD", "category": "Vídeo", "price": 59.9 },
+  { "id": 6, "name": "Hub USB-C", "category": "Accesorios", "price": 44.9 }
+]

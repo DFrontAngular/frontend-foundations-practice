@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Estado en URL</title>
+  </head>
+  <body>
+    <main>
+      <h1>Catálogo</h1>
+      <form>
+        <label>Buscar <input name="query" /></label
+        ><label
+          >Categoría
+          <select name="category">
+            <option value="all">Todas</option>
+            <option value="learning">Aprendizaje</option>
+            <option value="work">Trabajo</option>
+            <option value="personal">Personal</option>
+          </select></label
+        ><label
+          >Orden
+          <select name="sort">
+            <option value="recent">Recientes</option>
+            <option value="title">Título</option>
+          </select></label
+        >
+      </form>
+      <output data-output></output>
+    </main>
+    <script type="module" src="app.js"></script>
+  </body>
+</html>

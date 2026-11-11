@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Formulario</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main>
+      <form class="account-form">
+        <h1>Datos de cuenta</h1>
+        <div class="field">
+          <label for="name">Nombre</label><input id="name" name="name" required minlength="2" />
+        </div>
+        <div class="field">
+          <label for="email">Email</label
+          ><input id="email" name="email" type="email" required /><small
+            >Usaremos este email para avisos de la cuenta.</small
+          >
+        </div>
+        <div class="field">
+          <label for="role">Rol</label
+          ><select id="role" name="role">
+            <option>Desarrollo</option>
+            <option>Diseño</option>
+            <option>Producto</option>
+          </select>
+        </div>
+        <div class="field">
+          <label for="company">Empresa</label><input id="company" value="Acme Corp" disabled />
+        </div>
+        <button>Guardar cambios</button>
+      </form>
+    </main>
+  </body>
+</html>

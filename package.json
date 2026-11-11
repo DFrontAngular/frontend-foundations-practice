@@ -1,0 +1,18 @@
+{
+  "name": "frontend-foundations-practice",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node server.mjs",
+    "test": "node --test tests/api.test.mjs",
+    "test:exercise": "node scripts/test-exercise.mjs",
+    "typecheck": "tsc --noEmit",
+    "format": "prettier --write .",
+    "format:check": "prettier --check ."
+  },
+  "devDependencies": {
+    "chokidar": "^4.0.3",
+    "prettier": "^3.9.10",
+    "typescript": "^5.7.3"
+  }
+}

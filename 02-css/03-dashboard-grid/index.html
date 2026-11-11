@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="dashboard">
+      <header class="dashboard__header">
+        <strong>Acme Analytics</strong><button type="button">Perfil</button>
+      </header>
+      <aside class="dashboard__sidebar">
+        <nav>
+          <a href="#">Resumen</a><a href="#">Ventas</a><a href="#">Clientes</a
+          ><a href="#">Configuración</a>
+        </nav>
+      </aside>
+      <main class="dashboard__main">
+        <h1>Resumen</h1>
+        <section class="kpis" aria-label="Indicadores">
+          <article>
+            <h2>Ingresos</h2>
+            <p>48.200 €</p>
+          </article>
+          <article>
+            <h2>Pedidos</h2>
+            <p>1.284</p>
+          </article>
+          <article>
+            <h2>Conversión</h2>
+            <p>4,8 %</p>
+          </article>
+          <article>
+            <h2>Ticket medio</h2>
+            <p>37,54 €</p>
+          </article>
+        </section>
+        <section class="activity">
+          <h2>Actividad reciente</h2>
+          <ul>
+            <li>Pedido #1042 confirmado</li>
+            <li>Nuevo cliente registrado</li>
+            <li>Factura #992 pagada</li>
+          </ul>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>
