@@ -3,9 +3,91 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>TODO: perfil profesional</title>
+    <meta
+      name="description"
+      content="Perfil profesional de Sergio Melero"
+    />
+    <title>Sergio Melero — Perfil profesional</title>
   </head>
   <body>
-    <!-- Construye aquí la página usando HTML semántico. -->
+    <header>
+      <h1>Sergio Melero</h1>
+      <p>Desarrollador iOS</p>
+      <nav aria-label="Navegación interna">
+        <ul>
+          <li><a href="#sobre-mi">Sobre mí</a></li>
+          <li><a href="#experiencia">Experiencia</a></li>
+          <li><a href="#habilidades">Habilidades</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="sobre-mi" aria-labelledby="sobre-mi-titulo">
+        <h2 id="sobre-mi-titulo">Sobre mí</h2>
+        <p>
+          Soy desarrollador iOS con años de experiencia construyendo aplicaciones móviles
+          con Swift y SwiftUI. Tambien tengo experiencia en desarrollo frontend web. Soy
+          celíaco y tengo tres agapornis.
+        </p>
+      </section>
+
+      <section id="experiencia" aria-labelledby="experiencia-titulo">
+        <h2 id="experiencia-titulo">Experiencia</h2>
+
+        <article>
+          <h3>Desarrollador iOS — NTT Data</h3>
+          <p>4 años de experiencia</p>
+          <p>
+            Desarrollo de aplicaciones móviles para iOS, trabajando con Objective-C, Swift y SwiftUI. 
+            Participación en el ciclo completo de desarrollo, incluyendo pruebas unitarias y de interfaz.
+          </p>
+        </article>
+
+        <article>
+          <h3>Desarrollador Frontend — NTT Data</h3>
+          <p>1 año de experiencia</p>
+          <p>
+            Desarrollo de una aplicación web para técnicos dentro de un proyecto para Iberdrola, 
+            utilizando HTML, CSS, JavaScript, SQLite y Java para construir y mantener las funcionalidades 
+            del frontend.
+          </p>
+        </article>
+      </section>
+
+      <section id="habilidades" aria-labelledby="habilidades-titulo">
+        <h2 id="habilidades-titulo">Habilidades</h2>
+        <ul>
+          <li>Swift</li>
+          <li>SwiftUI</li>
+          <li>JavaScript</li>
+          <li>Git</li>
+          <li>Integración y consumo de APIs</li>
+          <li>Pruebas unitarias y de interfaz en iOS</li>
+        </ul>
+      </section>
+
+      <section id="contacto" aria-labelledby="contacto-titulo">
+        <h2 id="contacto-titulo">Contacto</h2>
+        <address>
+          <p>
+            Correo electrónico:
+            <a href="mailto:smelerom@emeal.nttdata.com">smelerom@emeal.nttdata.com</a>
+          </p>
+          <p>
+            GitHub:
+            <a href="https://github.com/NTTsmelerom" target="_blank" rel="noopener noreferrer">
+              Repositorios de Sergio Melero</a>
+          </p>
+          <p>Microsoft Teams: Sergio Melero</p>
+        </address>
+      </section>
+    </main>
+
+    <footer>
+      <p>
+        Volver a la <a href="#sobre-mi">sección "Sobre mí"</a>
+    </footer>
   </body>
 </html>
